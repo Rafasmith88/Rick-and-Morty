@@ -25,3 +25,15 @@ pegarPersonagem = () => {
         headers: {
             Acept: 'application/json',
             "Content-type": 'application/json'
+        }
+    }).then((response) => response.json()).then((data) => {
+        imagem.src = data.image;
+        imagem.alt = data.name;
+        nomeDoPersonagem.innerHTML = data.name;
+        especie.innerHTML = data.species;
+        condicao.innerHTML = traduzirCondicao(data);
+
+    });
+}
+
+botao.onclick = pegarPersonagem;       
