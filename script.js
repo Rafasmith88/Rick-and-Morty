@@ -1,9 +1,9 @@
 const botao = document.querySelector('button');
 
 const imagem0 = document.querySelector('img#pic0');
-const nomeDoPersonagem0 = document.querySelector('#nome');
-const especie = document.querySelector('#especie');
-const condicao = document.querySelector('#status');
+const nomeDoPersonagem0 = document.querySelector('#nome0');
+const especie0 = document.querySelector('#especie0');
+const condicao0 = document.querySelector('#status0');
 
 const imagem1 = document.querySelector('img#pic1');
 const nomeDoPersonagem1 = document.querySelector('#nome1');
